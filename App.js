@@ -23,18 +23,18 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import InputSearch from './src/inputSearch';
+// import InputSearch from './src/inputSearch';
+import FullScreen from './src/fullscreen';
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <InputSearch />
+        <FullScreen />
       </SafeAreaView>
     </>
   );
 };
-
 
 export default App;
